@@ -1,0 +1,60 @@
+[['H', 'e'], ['O', 'e'], ['HO', 'H'], ['OH', 'H'], ['HH', 'O']]
+HOH
+RET: {'HH', 'HOe', 'eOH', 'HeH'}
+NEW {'HH', 'HOe', 'eOH', 'HeH'}
+???
+1
+4
+{'HH', 'HOe', 'eOH', 'HeH'}
+HH
+RET: {'He', 'O', 'eH'}
+NEW {'He', 'O', 'eH'}
+HOe
+RET: {'He', 'eOe', 'Hee'}
+NEW {'Hee', 'O', 'He', 'eOe', 'eH'}
+eOH
+RET: {'eOe', 'eeH', 'eH'}
+NEW {'Hee', 'O', 'He', 'eOe', 'eeH', 'eH'}
+HeH
+RET: {'eeH', 'Hee'}
+NEW {'Hee', 'O', 'He', 'eOe', 'eeH', 'eH'}
+???
+2
+6
+{'Hee', 'O', 'He', 'eOe', 'eeH', 'eH'}
+Hee
+RET: {'eee'}
+NEW {'eee'}
+O
+RET: {'e'}
+NEW {'eee', 'e'}
+He
+RET: {'ee'}
+NEW {'eee', 'e', 'ee'}
+eOe
+RET: {'eee'}
+NEW {'eee', 'e', 'ee'}
+eeH
+RET: {'eee'}
+NEW {'eee', 'e', 'ee'}
+eH
+RET: {'ee'}
+NEW {'eee', 'e', 'ee'}
+???
+3
+3
+{'eee', 'e', 'ee'}
+eee
+RET: set()
+NEW set()
+e
+RET: set()
+NEW set()
+ANS:  3
+ee
+RET: set()
+NEW set()
+???
+4
+0
+set()
