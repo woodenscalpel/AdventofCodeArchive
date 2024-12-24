@@ -1,0 +1,261 @@
+{'x00': 1, 'x01': 0, 'x02': 1, 'x03': 1, 'x04': 0, 'y00': 1, 'y01': 1, 'y02': 1, 'y03': 1, 'y04': 1}
+ntg fgs XOR mjb
+y02 x01 OR tnw
+kwq kpj OR z05
+x00 x03 OR fst
+tgd rvg XOR z01
+vdt tnw OR bfw
+bfw frj AND z10
+ffh nrd OR bqk
+y00 y03 AND djm
+y03 y00 OR psh
+bqk frj OR z08
+tnw fst OR frj
+gnj tgd AND z11
+bfw mjb XOR z00
+x03 x00 OR vdt
+gnj wpb AND z02
+x04 y00 AND kjc
+djm pbm OR qhw
+nrd vdt AND hwm
+kjc fst AND rvg
+y04 y02 OR fgs
+y01 x02 AND pbm
+ntg kjc OR kwq
+psh fgs XOR tgd
+qhw tgd XOR z09
+pbm djm OR kpj
+x03 y03 XOR ffh
+x00 y04 XOR ntg
+bfw bqk OR z06
+nrd fgs XOR wpb
+frj qhw XOR z04
+bqk frj OR z07
+y03 x01 OR nrd
+hwm bqk AND z03
+tgd rvg XOR z12
+tnw pbm OR gnj
+{('ntg', 'fgs'): ['XOR', 'mjb'], ('y02', 'x01'): ['OR', 'tnw'], ('kwq', 'kpj'): ['OR', 'z05'], ('x00', 'x03'): ['OR', 'fst'], ('tgd', 'rvg'): ['XOR', 'z12'], ('vdt', 'tnw'): ['OR', 'bfw'], ('bfw', 'frj'): ['AND', 'z10'], ('ffh', 'nrd'): ['OR', 'bqk'], ('y00', 'y03'): ['AND', 'djm'], ('y03', 'y00'): ['OR', 'psh'], ('bqk', 'frj'): ['OR', 'z07'], ('tnw', 'fst'): ['OR', 'frj'], ('gnj', 'tgd'): ['AND', 'z11'], ('bfw', 'mjb'): ['XOR', 'z00'], ('x03', 'x00'): ['OR', 'vdt'], ('gnj', 'wpb'): ['AND', 'z02'], ('x04', 'y00'): ['AND', 'kjc'], ('djm', 'pbm'): ['OR', 'qhw'], ('nrd', 'vdt'): ['AND', 'hwm'], ('kjc', 'fst'): ['AND', 'rvg'], ('y04', 'y02'): ['OR', 'fgs'], ('y01', 'x02'): ['AND', 'pbm'], ('ntg', 'kjc'): ['OR', 'kwq'], ('psh', 'fgs'): ['XOR', 'tgd'], ('qhw', 'tgd'): ['XOR', 'z09'], ('pbm', 'djm'): ['OR', 'kpj'], ('x03', 'y03'): ['XOR', 'ffh'], ('x00', 'y04'): ['XOR', 'ntg'], ('bfw', 'bqk'): ['OR', 'z06'], ('nrd', 'fgs'): ['XOR', 'wpb'], ('frj', 'qhw'): ['XOR', 'z04'], ('y03', 'x01'): ['OR', 'nrd'], ('hwm', 'bqk'): ['AND', 'z03'], ('tnw', 'pbm'): ['OR', 'gnj']}
+check ('ntg', 'fgs')
+not found
+{}
+{('ntg', 'fgs'): ['XOR', 'mjb']}
+check ('y02', 'x01')
+found
+tnw
+1
+check ('kwq', 'kpj')
+not found
+{('ntg', 'fgs'): ['XOR', 'mjb']}
+{('ntg', 'fgs'): ['XOR', 'mjb'], ('kwq', 'kpj'): ['OR', 'z05']}
+check ('x00', 'x03')
+found
+fst
+1
+check ('tgd', 'rvg')
+not found
+{('ntg', 'fgs'): ['XOR', 'mjb'], ('kwq', 'kpj'): ['OR', 'z05']}
+{('ntg', 'fgs'): ['XOR', 'mjb'], ('kwq', 'kpj'): ['OR', 'z05'], ('tgd', 'rvg'): ['XOR', 'z12']}
+check ('vdt', 'tnw')
+not found
+{('ntg', 'fgs'): ['XOR', 'mjb'], ('kwq', 'kpj'): ['OR', 'z05'], ('tgd', 'rvg'): ['XOR', 'z12']}
+{('ntg', 'fgs'): ['XOR', 'mjb'], ('kwq', 'kpj'): ['OR', 'z05'], ('tgd', 'rvg'): ['XOR', 'z12'], ('vdt', 'tnw'): ['OR', 'bfw']}
+check ('bfw', 'frj')
+not found
+{('ntg', 'fgs'): ['XOR', 'mjb'], ('kwq', 'kpj'): ['OR', 'z05'], ('tgd', 'rvg'): ['XOR', 'z12'], ('vdt', 'tnw'): ['OR', 'bfw']}
+{('ntg', 'fgs'): ['XOR', 'mjb'], ('kwq', 'kpj'): ['OR', 'z05'], ('tgd', 'rvg'): ['XOR', 'z12'], ('vdt', 'tnw'): ['OR', 'bfw'], ('bfw', 'frj'): ['AND', 'z10']}
+check ('ffh', 'nrd')
+not found
+{('ntg', 'fgs'): ['XOR', 'mjb'], ('kwq', 'kpj'): ['OR', 'z05'], ('tgd', 'rvg'): ['XOR', 'z12'], ('vdt', 'tnw'): ['OR', 'bfw'], ('bfw', 'frj'): ['AND', 'z10']}
+{('ntg', 'fgs'): ['XOR', 'mjb'], ('kwq', 'kpj'): ['OR', 'z05'], ('tgd', 'rvg'): ['XOR', 'z12'], ('vdt', 'tnw'): ['OR', 'bfw'], ('bfw', 'frj'): ['AND', 'z10'], ('ffh', 'nrd'): ['OR', 'bqk']}
+check ('y00', 'y03')
+found
+djm
+1
+check ('y03', 'y00')
+found
+psh
+1
+check ('bqk', 'frj')
+not found
+{('ntg', 'fgs'): ['XOR', 'mjb'], ('kwq', 'kpj'): ['OR', 'z05'], ('tgd', 'rvg'): ['XOR', 'z12'], ('vdt', 'tnw'): ['OR', 'bfw'], ('bfw', 'frj'): ['AND', 'z10'], ('ffh', 'nrd'): ['OR', 'bqk']}
+{('ntg', 'fgs'): ['XOR', 'mjb'], ('kwq', 'kpj'): ['OR', 'z05'], ('tgd', 'rvg'): ['XOR', 'z12'], ('vdt', 'tnw'): ['OR', 'bfw'], ('bfw', 'frj'): ['AND', 'z10'], ('ffh', 'nrd'): ['OR', 'bqk'], ('bqk', 'frj'): ['OR', 'z07']}
+check ('tnw', 'fst')
+found
+frj
+1
+check ('gnj', 'tgd')
+not found
+{('ntg', 'fgs'): ['XOR', 'mjb'], ('kwq', 'kpj'): ['OR', 'z05'], ('tgd', 'rvg'): ['XOR', 'z12'], ('vdt', 'tnw'): ['OR', 'bfw'], ('bfw', 'frj'): ['AND', 'z10'], ('ffh', 'nrd'): ['OR', 'bqk'], ('bqk', 'frj'): ['OR', 'z07']}
+{('ntg', 'fgs'): ['XOR', 'mjb'], ('kwq', 'kpj'): ['OR', 'z05'], ('tgd', 'rvg'): ['XOR', 'z12'], ('vdt', 'tnw'): ['OR', 'bfw'], ('bfw', 'frj'): ['AND', 'z10'], ('ffh', 'nrd'): ['OR', 'bqk'], ('bqk', 'frj'): ['OR', 'z07'], ('gnj', 'tgd'): ['AND', 'z11']}
+check ('bfw', 'mjb')
+not found
+{('ntg', 'fgs'): ['XOR', 'mjb'], ('kwq', 'kpj'): ['OR', 'z05'], ('tgd', 'rvg'): ['XOR', 'z12'], ('vdt', 'tnw'): ['OR', 'bfw'], ('bfw', 'frj'): ['AND', 'z10'], ('ffh', 'nrd'): ['OR', 'bqk'], ('bqk', 'frj'): ['OR', 'z07'], ('gnj', 'tgd'): ['AND', 'z11']}
+{('ntg', 'fgs'): ['XOR', 'mjb'], ('kwq', 'kpj'): ['OR', 'z05'], ('tgd', 'rvg'): ['XOR', 'z12'], ('vdt', 'tnw'): ['OR', 'bfw'], ('bfw', 'frj'): ['AND', 'z10'], ('ffh', 'nrd'): ['OR', 'bqk'], ('bqk', 'frj'): ['OR', 'z07'], ('gnj', 'tgd'): ['AND', 'z11'], ('bfw', 'mjb'): ['XOR', 'z00']}
+check ('x03', 'x00')
+found
+vdt
+1
+check ('gnj', 'wpb')
+not found
+{('ntg', 'fgs'): ['XOR', 'mjb'], ('kwq', 'kpj'): ['OR', 'z05'], ('tgd', 'rvg'): ['XOR', 'z12'], ('vdt', 'tnw'): ['OR', 'bfw'], ('bfw', 'frj'): ['AND', 'z10'], ('ffh', 'nrd'): ['OR', 'bqk'], ('bqk', 'frj'): ['OR', 'z07'], ('gnj', 'tgd'): ['AND', 'z11'], ('bfw', 'mjb'): ['XOR', 'z00']}
+{('ntg', 'fgs'): ['XOR', 'mjb'], ('kwq', 'kpj'): ['OR', 'z05'], ('tgd', 'rvg'): ['XOR', 'z12'], ('vdt', 'tnw'): ['OR', 'bfw'], ('bfw', 'frj'): ['AND', 'z10'], ('ffh', 'nrd'): ['OR', 'bqk'], ('bqk', 'frj'): ['OR', 'z07'], ('gnj', 'tgd'): ['AND', 'z11'], ('bfw', 'mjb'): ['XOR', 'z00'], ('gnj', 'wpb'): ['AND', 'z02']}
+check ('x04', 'y00')
+found
+kjc
+0
+check ('djm', 'pbm')
+not found
+{('ntg', 'fgs'): ['XOR', 'mjb'], ('kwq', 'kpj'): ['OR', 'z05'], ('tgd', 'rvg'): ['XOR', 'z12'], ('vdt', 'tnw'): ['OR', 'bfw'], ('bfw', 'frj'): ['AND', 'z10'], ('ffh', 'nrd'): ['OR', 'bqk'], ('bqk', 'frj'): ['OR', 'z07'], ('gnj', 'tgd'): ['AND', 'z11'], ('bfw', 'mjb'): ['XOR', 'z00'], ('gnj', 'wpb'): ['AND', 'z02']}
+{('ntg', 'fgs'): ['XOR', 'mjb'], ('kwq', 'kpj'): ['OR', 'z05'], ('tgd', 'rvg'): ['XOR', 'z12'], ('vdt', 'tnw'): ['OR', 'bfw'], ('bfw', 'frj'): ['AND', 'z10'], ('ffh', 'nrd'): ['OR', 'bqk'], ('bqk', 'frj'): ['OR', 'z07'], ('gnj', 'tgd'): ['AND', 'z11'], ('bfw', 'mjb'): ['XOR', 'z00'], ('gnj', 'wpb'): ['AND', 'z02'], ('djm', 'pbm'): ['OR', 'qhw']}
+check ('nrd', 'vdt')
+not found
+{('ntg', 'fgs'): ['XOR', 'mjb'], ('kwq', 'kpj'): ['OR', 'z05'], ('tgd', 'rvg'): ['XOR', 'z12'], ('vdt', 'tnw'): ['OR', 'bfw'], ('bfw', 'frj'): ['AND', 'z10'], ('ffh', 'nrd'): ['OR', 'bqk'], ('bqk', 'frj'): ['OR', 'z07'], ('gnj', 'tgd'): ['AND', 'z11'], ('bfw', 'mjb'): ['XOR', 'z00'], ('gnj', 'wpb'): ['AND', 'z02'], ('djm', 'pbm'): ['OR', 'qhw']}
+{('ntg', 'fgs'): ['XOR', 'mjb'], ('kwq', 'kpj'): ['OR', 'z05'], ('tgd', 'rvg'): ['XOR', 'z12'], ('vdt', 'tnw'): ['OR', 'bfw'], ('bfw', 'frj'): ['AND', 'z10'], ('ffh', 'nrd'): ['OR', 'bqk'], ('bqk', 'frj'): ['OR', 'z07'], ('gnj', 'tgd'): ['AND', 'z11'], ('bfw', 'mjb'): ['XOR', 'z00'], ('gnj', 'wpb'): ['AND', 'z02'], ('djm', 'pbm'): ['OR', 'qhw'], ('nrd', 'vdt'): ['AND', 'hwm']}
+check ('kjc', 'fst')
+found
+rvg
+0
+check ('y04', 'y02')
+found
+fgs
+1
+check ('y01', 'x02')
+found
+pbm
+1
+check ('ntg', 'kjc')
+not found
+{('ntg', 'fgs'): ['XOR', 'mjb'], ('kwq', 'kpj'): ['OR', 'z05'], ('tgd', 'rvg'): ['XOR', 'z12'], ('vdt', 'tnw'): ['OR', 'bfw'], ('bfw', 'frj'): ['AND', 'z10'], ('ffh', 'nrd'): ['OR', 'bqk'], ('bqk', 'frj'): ['OR', 'z07'], ('gnj', 'tgd'): ['AND', 'z11'], ('bfw', 'mjb'): ['XOR', 'z00'], ('gnj', 'wpb'): ['AND', 'z02'], ('djm', 'pbm'): ['OR', 'qhw'], ('nrd', 'vdt'): ['AND', 'hwm']}
+{('ntg', 'fgs'): ['XOR', 'mjb'], ('kwq', 'kpj'): ['OR', 'z05'], ('tgd', 'rvg'): ['XOR', 'z12'], ('vdt', 'tnw'): ['OR', 'bfw'], ('bfw', 'frj'): ['AND', 'z10'], ('ffh', 'nrd'): ['OR', 'bqk'], ('bqk', 'frj'): ['OR', 'z07'], ('gnj', 'tgd'): ['AND', 'z11'], ('bfw', 'mjb'): ['XOR', 'z00'], ('gnj', 'wpb'): ['AND', 'z02'], ('djm', 'pbm'): ['OR', 'qhw'], ('nrd', 'vdt'): ['AND', 'hwm'], ('ntg', 'kjc'): ['OR', 'kwq']}
+check ('psh', 'fgs')
+found
+tgd
+0
+check ('qhw', 'tgd')
+not found
+{('ntg', 'fgs'): ['XOR', 'mjb'], ('kwq', 'kpj'): ['OR', 'z05'], ('tgd', 'rvg'): ['XOR', 'z12'], ('vdt', 'tnw'): ['OR', 'bfw'], ('bfw', 'frj'): ['AND', 'z10'], ('ffh', 'nrd'): ['OR', 'bqk'], ('bqk', 'frj'): ['OR', 'z07'], ('gnj', 'tgd'): ['AND', 'z11'], ('bfw', 'mjb'): ['XOR', 'z00'], ('gnj', 'wpb'): ['AND', 'z02'], ('djm', 'pbm'): ['OR', 'qhw'], ('nrd', 'vdt'): ['AND', 'hwm'], ('ntg', 'kjc'): ['OR', 'kwq']}
+{('ntg', 'fgs'): ['XOR', 'mjb'], ('kwq', 'kpj'): ['OR', 'z05'], ('tgd', 'rvg'): ['XOR', 'z12'], ('vdt', 'tnw'): ['OR', 'bfw'], ('bfw', 'frj'): ['AND', 'z10'], ('ffh', 'nrd'): ['OR', 'bqk'], ('bqk', 'frj'): ['OR', 'z07'], ('gnj', 'tgd'): ['AND', 'z11'], ('bfw', 'mjb'): ['XOR', 'z00'], ('gnj', 'wpb'): ['AND', 'z02'], ('djm', 'pbm'): ['OR', 'qhw'], ('nrd', 'vdt'): ['AND', 'hwm'], ('ntg', 'kjc'): ['OR', 'kwq'], ('qhw', 'tgd'): ['XOR', 'z09']}
+check ('pbm', 'djm')
+found
+kpj
+1
+check ('x03', 'y03')
+found
+ffh
+0
+check ('x00', 'y04')
+found
+ntg
+0
+check ('bfw', 'bqk')
+not found
+{('ntg', 'fgs'): ['XOR', 'mjb'], ('kwq', 'kpj'): ['OR', 'z05'], ('tgd', 'rvg'): ['XOR', 'z12'], ('vdt', 'tnw'): ['OR', 'bfw'], ('bfw', 'frj'): ['AND', 'z10'], ('ffh', 'nrd'): ['OR', 'bqk'], ('bqk', 'frj'): ['OR', 'z07'], ('gnj', 'tgd'): ['AND', 'z11'], ('bfw', 'mjb'): ['XOR', 'z00'], ('gnj', 'wpb'): ['AND', 'z02'], ('djm', 'pbm'): ['OR', 'qhw'], ('nrd', 'vdt'): ['AND', 'hwm'], ('ntg', 'kjc'): ['OR', 'kwq'], ('qhw', 'tgd'): ['XOR', 'z09']}
+{('ntg', 'fgs'): ['XOR', 'mjb'], ('kwq', 'kpj'): ['OR', 'z05'], ('tgd', 'rvg'): ['XOR', 'z12'], ('vdt', 'tnw'): ['OR', 'bfw'], ('bfw', 'frj'): ['AND', 'z10'], ('ffh', 'nrd'): ['OR', 'bqk'], ('bqk', 'frj'): ['OR', 'z07'], ('gnj', 'tgd'): ['AND', 'z11'], ('bfw', 'mjb'): ['XOR', 'z00'], ('gnj', 'wpb'): ['AND', 'z02'], ('djm', 'pbm'): ['OR', 'qhw'], ('nrd', 'vdt'): ['AND', 'hwm'], ('ntg', 'kjc'): ['OR', 'kwq'], ('qhw', 'tgd'): ['XOR', 'z09'], ('bfw', 'bqk'): ['OR', 'z06']}
+check ('nrd', 'fgs')
+not found
+{('ntg', 'fgs'): ['XOR', 'mjb'], ('kwq', 'kpj'): ['OR', 'z05'], ('tgd', 'rvg'): ['XOR', 'z12'], ('vdt', 'tnw'): ['OR', 'bfw'], ('bfw', 'frj'): ['AND', 'z10'], ('ffh', 'nrd'): ['OR', 'bqk'], ('bqk', 'frj'): ['OR', 'z07'], ('gnj', 'tgd'): ['AND', 'z11'], ('bfw', 'mjb'): ['XOR', 'z00'], ('gnj', 'wpb'): ['AND', 'z02'], ('djm', 'pbm'): ['OR', 'qhw'], ('nrd', 'vdt'): ['AND', 'hwm'], ('ntg', 'kjc'): ['OR', 'kwq'], ('qhw', 'tgd'): ['XOR', 'z09'], ('bfw', 'bqk'): ['OR', 'z06']}
+{('ntg', 'fgs'): ['XOR', 'mjb'], ('kwq', 'kpj'): ['OR', 'z05'], ('tgd', 'rvg'): ['XOR', 'z12'], ('vdt', 'tnw'): ['OR', 'bfw'], ('bfw', 'frj'): ['AND', 'z10'], ('ffh', 'nrd'): ['OR', 'bqk'], ('bqk', 'frj'): ['OR', 'z07'], ('gnj', 'tgd'): ['AND', 'z11'], ('bfw', 'mjb'): ['XOR', 'z00'], ('gnj', 'wpb'): ['AND', 'z02'], ('djm', 'pbm'): ['OR', 'qhw'], ('nrd', 'vdt'): ['AND', 'hwm'], ('ntg', 'kjc'): ['OR', 'kwq'], ('qhw', 'tgd'): ['XOR', 'z09'], ('bfw', 'bqk'): ['OR', 'z06'], ('nrd', 'fgs'): ['XOR', 'wpb']}
+check ('frj', 'qhw')
+not found
+{('ntg', 'fgs'): ['XOR', 'mjb'], ('kwq', 'kpj'): ['OR', 'z05'], ('tgd', 'rvg'): ['XOR', 'z12'], ('vdt', 'tnw'): ['OR', 'bfw'], ('bfw', 'frj'): ['AND', 'z10'], ('ffh', 'nrd'): ['OR', 'bqk'], ('bqk', 'frj'): ['OR', 'z07'], ('gnj', 'tgd'): ['AND', 'z11'], ('bfw', 'mjb'): ['XOR', 'z00'], ('gnj', 'wpb'): ['AND', 'z02'], ('djm', 'pbm'): ['OR', 'qhw'], ('nrd', 'vdt'): ['AND', 'hwm'], ('ntg', 'kjc'): ['OR', 'kwq'], ('qhw', 'tgd'): ['XOR', 'z09'], ('bfw', 'bqk'): ['OR', 'z06'], ('nrd', 'fgs'): ['XOR', 'wpb']}
+{('ntg', 'fgs'): ['XOR', 'mjb'], ('kwq', 'kpj'): ['OR', 'z05'], ('tgd', 'rvg'): ['XOR', 'z12'], ('vdt', 'tnw'): ['OR', 'bfw'], ('bfw', 'frj'): ['AND', 'z10'], ('ffh', 'nrd'): ['OR', 'bqk'], ('bqk', 'frj'): ['OR', 'z07'], ('gnj', 'tgd'): ['AND', 'z11'], ('bfw', 'mjb'): ['XOR', 'z00'], ('gnj', 'wpb'): ['AND', 'z02'], ('djm', 'pbm'): ['OR', 'qhw'], ('nrd', 'vdt'): ['AND', 'hwm'], ('ntg', 'kjc'): ['OR', 'kwq'], ('qhw', 'tgd'): ['XOR', 'z09'], ('bfw', 'bqk'): ['OR', 'z06'], ('nrd', 'fgs'): ['XOR', 'wpb'], ('frj', 'qhw'): ['XOR', 'z04']}
+check ('y03', 'x01')
+found
+nrd
+1
+check ('hwm', 'bqk')
+not found
+{('ntg', 'fgs'): ['XOR', 'mjb'], ('kwq', 'kpj'): ['OR', 'z05'], ('tgd', 'rvg'): ['XOR', 'z12'], ('vdt', 'tnw'): ['OR', 'bfw'], ('bfw', 'frj'): ['AND', 'z10'], ('ffh', 'nrd'): ['OR', 'bqk'], ('bqk', 'frj'): ['OR', 'z07'], ('gnj', 'tgd'): ['AND', 'z11'], ('bfw', 'mjb'): ['XOR', 'z00'], ('gnj', 'wpb'): ['AND', 'z02'], ('djm', 'pbm'): ['OR', 'qhw'], ('nrd', 'vdt'): ['AND', 'hwm'], ('ntg', 'kjc'): ['OR', 'kwq'], ('qhw', 'tgd'): ['XOR', 'z09'], ('bfw', 'bqk'): ['OR', 'z06'], ('nrd', 'fgs'): ['XOR', 'wpb'], ('frj', 'qhw'): ['XOR', 'z04']}
+{('ntg', 'fgs'): ['XOR', 'mjb'], ('kwq', 'kpj'): ['OR', 'z05'], ('tgd', 'rvg'): ['XOR', 'z12'], ('vdt', 'tnw'): ['OR', 'bfw'], ('bfw', 'frj'): ['AND', 'z10'], ('ffh', 'nrd'): ['OR', 'bqk'], ('bqk', 'frj'): ['OR', 'z07'], ('gnj', 'tgd'): ['AND', 'z11'], ('bfw', 'mjb'): ['XOR', 'z00'], ('gnj', 'wpb'): ['AND', 'z02'], ('djm', 'pbm'): ['OR', 'qhw'], ('nrd', 'vdt'): ['AND', 'hwm'], ('ntg', 'kjc'): ['OR', 'kwq'], ('qhw', 'tgd'): ['XOR', 'z09'], ('bfw', 'bqk'): ['OR', 'z06'], ('nrd', 'fgs'): ['XOR', 'wpb'], ('frj', 'qhw'): ['XOR', 'z04'], ('hwm', 'bqk'): ['AND', 'z03']}
+check ('tnw', 'pbm')
+found
+gnj
+1
+{('ntg', 'fgs'): ['XOR', 'mjb'], ('kwq', 'kpj'): ['OR', 'z05'], ('tgd', 'rvg'): ['XOR', 'z12'], ('vdt', 'tnw'): ['OR', 'bfw'], ('bfw', 'frj'): ['AND', 'z10'], ('ffh', 'nrd'): ['OR', 'bqk'], ('bqk', 'frj'): ['OR', 'z07'], ('gnj', 'tgd'): ['AND', 'z11'], ('bfw', 'mjb'): ['XOR', 'z00'], ('gnj', 'wpb'): ['AND', 'z02'], ('djm', 'pbm'): ['OR', 'qhw'], ('nrd', 'vdt'): ['AND', 'hwm'], ('ntg', 'kjc'): ['OR', 'kwq'], ('qhw', 'tgd'): ['XOR', 'z09'], ('bfw', 'bqk'): ['OR', 'z06'], ('nrd', 'fgs'): ['XOR', 'wpb'], ('frj', 'qhw'): ['XOR', 'z04'], ('hwm', 'bqk'): ['AND', 'z03']}
+{('ntg', 'fgs'): ['XOR', 'mjb'], ('kwq', 'kpj'): ['OR', 'z05'], ('tgd', 'rvg'): ['XOR', 'z12'], ('vdt', 'tnw'): ['OR', 'bfw'], ('bfw', 'frj'): ['AND', 'z10'], ('ffh', 'nrd'): ['OR', 'bqk'], ('bqk', 'frj'): ['OR', 'z07'], ('gnj', 'tgd'): ['AND', 'z11'], ('bfw', 'mjb'): ['XOR', 'z00'], ('gnj', 'wpb'): ['AND', 'z02'], ('djm', 'pbm'): ['OR', 'qhw'], ('nrd', 'vdt'): ['AND', 'hwm'], ('ntg', 'kjc'): ['OR', 'kwq'], ('qhw', 'tgd'): ['XOR', 'z09'], ('bfw', 'bqk'): ['OR', 'z06'], ('nrd', 'fgs'): ['XOR', 'wpb'], ('frj', 'qhw'): ['XOR', 'z04'], ('hwm', 'bqk'): ['AND', 'z03']}
+check ('ntg', 'fgs')
+found
+mjb
+1
+check ('kwq', 'kpj')
+not found
+{}
+{('kwq', 'kpj'): ['OR', 'z05']}
+check ('tgd', 'rvg')
+found
+z12
+0
+check ('vdt', 'tnw')
+found
+bfw
+1
+check ('bfw', 'frj')
+found
+z10
+1
+check ('ffh', 'nrd')
+found
+bqk
+1
+check ('bqk', 'frj')
+found
+z07
+1
+check ('gnj', 'tgd')
+found
+z11
+0
+check ('bfw', 'mjb')
+found
+z00
+0
+check ('gnj', 'wpb')
+not found
+{('kwq', 'kpj'): ['OR', 'z05']}
+{('kwq', 'kpj'): ['OR', 'z05'], ('gnj', 'wpb'): ['AND', 'z02']}
+check ('djm', 'pbm')
+found
+qhw
+1
+check ('nrd', 'vdt')
+found
+hwm
+1
+check ('ntg', 'kjc')
+found
+kwq
+0
+check ('qhw', 'tgd')
+found
+z09
+1
+check ('bfw', 'bqk')
+found
+z06
+1
+check ('nrd', 'fgs')
+found
+wpb
+0
+check ('frj', 'qhw')
+found
+z04
+0
+check ('hwm', 'bqk')
+found
+z03
+1
+{('kwq', 'kpj'): ['OR', 'z05'], ('gnj', 'wpb'): ['AND', 'z02']}
+{('kwq', 'kpj'): ['OR', 'z05'], ('gnj', 'wpb'): ['AND', 'z02']}
+check ('kwq', 'kpj')
+found
+z05
+1
+check ('gnj', 'wpb')
+found
+z02
+0
+{}
+{'x00': 1, 'x01': 0, 'x02': 1, 'x03': 1, 'x04': 0, 'y00': 1, 'y01': 1, 'y02': 1, 'y03': 1, 'y04': 1, 'tnw': 1, 'fst': 1, 'djm': 1, 'psh': 1, 'frj': 1, 'vdt': 1, 'kjc': 0, 'rvg': 0, 'fgs': 1, 'pbm': 1, 'tgd': 0, 'kpj': 1, 'ffh': 0, 'ntg': 0, 'nrd': 1, 'gnj': 1, 'mjb': 1, 'z12': 0, 'bfw': 1, 'z10': 1, 'bqk': 1, 'z07': 1, 'z11': 0, 'z00': 0, 'qhw': 1, 'hwm': 1, 'kwq': 0, 'z09': 1, 'z06': 1, 'wpb': 0, 'z04': 0, 'z03': 1, 'z05': 1, 'z02': 0}
+0
